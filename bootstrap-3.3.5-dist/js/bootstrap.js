@@ -8,6 +8,7 @@ if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
 
+
 +function ($) {
   'use strict';
   var version = $.fn.jquery.split(' ')[0].split('.')
@@ -221,7 +222,15 @@ if (typeof jQuery === 'undefined') {
       }
     }, this), 0)
   }
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
 
+$(window).scroll(function(e){
+    parallax();
+});
   Button.prototype.toggle = function () {
     var changed = true
     var $parent = this.$element.closest('[data-toggle="buttons"]')
