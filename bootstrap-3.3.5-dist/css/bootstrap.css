@@ -13,10 +13,11 @@ body {
   margin: 0;
   
 }
+
 .bg {
   background: url('../images/ink.jpg') no-repeat center center;
   position: fixed;
-  padding-top: 60px;
+  margin-top: 60px;
   width: 100%;
   height: 350px; /*same height as jumbotron */
   top: 0;
@@ -5031,7 +5032,7 @@ a.badge:focus {
   height: 350px;
   color: black;
   text-shadow: #444 0 1px 1px;
-  margin-top: 51px;
+  margin-top: 60px;
   
   
 }
