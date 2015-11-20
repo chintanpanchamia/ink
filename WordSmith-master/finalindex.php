@@ -1,6 +1,6 @@
 <?php
 $error="";
-$dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831866_test')
+$dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
 session_start();
 if(isset($_POST['submit']))

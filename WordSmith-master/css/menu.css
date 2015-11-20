@@ -125,7 +125,7 @@ body {
 .gn-menu-main a {
 		display: block;
 		height: 100%;
-		color: #3c6;
+		color: #bb3333;
 		text-decoration: none;
 		cursor: pointer;
 }
@@ -133,8 +133,12 @@ body {
 .no-touch .gn-menu-main a:hover,
 .no-touch .gn-menu li.gn-search-item:hover,
 .no-touch .gn-menu li.gn-search-item:hover a {
-		background: #3c6;
+		background: #bb3333;
 		color: white;
+}
+.sitetitle .logo{
+  background-image: url('../images/ink-logo.png');
+
 }
 
 .gn-menu-main > li {
@@ -1030,7 +1034,7 @@ body {
 		outline: none;
 		border: none;
 		background: transparent;
-		color: #3c6;
+		color: #bb3333;
 		font-weight: 300;
 		font-family: 'Lato', Arial, sans-serif;
 		cursor: pointer;
@@ -1039,7 +1043,7 @@ body {
 /* placeholder */
 
 .gn-search::-webkit-input-placeholder {
-		color: #3c6
+		color: #bb3333
 }
 
 .gn-search:-moz-placeholder {
@@ -1169,15 +1173,15 @@ input.gn-search:focus {
 		vertical-align: -2px;
 		width: 30px;
 		height: 3px;
-		background: #3c6;
-		box-shadow: 0 3px white, 0 -6px #3c6, 0 -9px white, 0 -12px #3c6;
+		background: #bb3333;
+		box-shadow: 0 3px white, 0 -6px #bb3333, 0 -9px white, 0 -12px #bb3333;
 		content: '';
 }
 
 .no-touch .gn-icon-menu:hover::before,
 .no-touch .gn-icon-menu.gn-selected:hover::before {
 		background: white;
-		box-shadow: 0 3px #3c6, 0 -6px #fff, 0 -9px #3c6, 0 -12px #fff;
+		box-shadow: 0 3px #bb3333, 0 -6px #fff, 0 -9px #bb3333, 0 -12px #fff;
 }
 
 .gn-icon-menu.gn-selected::before {

@@ -2,7 +2,7 @@
 session_start();
 $view=$_GET['view'];
 $current=$_SESSION['login_user'];
-$dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831866_test')
+$dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
     $query="select * from article where creatorid={$view}";
     $result=mysqli_query($dbc,$query);
@@ -26,7 +26,7 @@ $dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831
 
     function latest()
     {
-       $dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831866_test')
+    $dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
       $query="select * from creator where creatorid={$_GET['view']}";
     $result=mysqli_query($dbc,$query);

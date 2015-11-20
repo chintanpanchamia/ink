@@ -3,7 +3,7 @@ $error="";
 if(isset($_POST['submit']))
 {
   $error="";
-    $dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831866_test')
+    $dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
   $query="select * from creator where email='{$_POST['emailid']}'";
   $result=mysqli_query($dbc,$query);

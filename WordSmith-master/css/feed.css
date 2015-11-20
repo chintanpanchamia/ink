@@ -28,8 +28,8 @@
 .title1 hr{
 	width:90%;
 	margin-top: -150px;
-	color:#3c6;
-	background-color: #3c6;
+	color:#BB3333;
+	background-color: #BB3333;
 	height:5px;
 }
 .title2 p
@@ -49,8 +49,8 @@
 .title2 hr{
 	width:80%;
 	margin-top: -70px;
-	color:#3c6;
-	background-color: #3c6;
+	color:#BB3333;
+	background-color: #BB3333;
 	height:5px;
 }
 .title3 p
@@ -73,7 +73,7 @@
 }
 /*.title3 a{
 	font-size: 50px;
-	color:#3c6;
+	color:#BB3333;
 	margin-top: -150px;
 	margin-left: 150px;
 }*/
@@ -84,7 +84,7 @@
 {
 	width:80%;
 	background-color:rgba(200,200,200,1);
-	border-left:50px solid #3c6;
+	border-left:50px solid #BB3333;
 	border-radius: 10px;
 	padding-left:30px;
 	padding-top:10px;
@@ -138,7 +138,7 @@
 }
 #butt
 {
-	background-color: #3c6;
+	background-color: #BB3333;
 	padding-right: 5px;
 	padding-left: 5px;
 	padding-top: 5px;

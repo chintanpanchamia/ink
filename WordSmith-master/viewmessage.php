@@ -7,7 +7,7 @@
 session_start();
 $user=$_SESSION['login_user'];
 $unread="";
-$dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831866_test')
+$dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
     $query="select * from pm where user2={$user} and user2read='no'";
     $result=mysqli_query($dbc,$query);

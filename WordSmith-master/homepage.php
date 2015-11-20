@@ -1,6 +1,6 @@
 <?php
 session_start();
-$dbc=mysqli_connect('localhost','root','','test')
+$dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
     //$query="select * from category where categoryid='{$_GET['cat']}'";
     //$result=mysqli_query($dbc,$query);
@@ -26,14 +26,14 @@ $dbc=mysqli_connect('localhost','root','','test')
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>wordsmith | home</title>
+		<title>ink | home</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/categories.css" />
 		<link rel="stylesheet" type="text/css" href="css/search-bar.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstap.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="css/core.css" />
 		<link rel="stylesheet" media="all" href="css/feed.css" />
 		<link rel="stylesheet" type="text/css" href="css/menu.css" />

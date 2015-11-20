@@ -1,7 +1,7 @@
 <?php
 $user=$_SESSION['user'];
 $article=$_POST['article'];
-$dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831866_test')
+$dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
   $query="select * from liketable where creatorid={$user} and articleid={$article}";
   $result=mysqli_query($dbc,$query);

@@ -102,7 +102,7 @@ a {
 	
 }
 .article-column a{
-	color:#3c6;
+	color:#BB3333;
 
 }
 .article-column a:hover
@@ -172,7 +172,7 @@ a {
 
 	.article-column:nth-child(2) {
 		width: 60%;
-	border-left: thick solid #3c6;
+	border-left: thick solid #BB3333;
 	}
 }
 
@@ -192,7 +192,7 @@ a {
 .article-main p
 {
 	color:#333;
-	border-left: thick solid #3c6;
+	border-left: thick solid #BB3333;
 	margin-top:-300px;bottom:0;padding-right:50px;padding-left:20px;
 	font-weight: 300;
 	font-size: 1em;
@@ -227,7 +227,7 @@ a {
 }
 .article
 {
-	width:100%; margin: 0 auto; padding-top: 20px; border-left:2px solid #3c6; 
+	width:100%; margin: 0 auto; padding-top: 20px; border-left:2px solid #BB3333; 
 	padding-left: 10px; padding-right: 5px; padding-bottom:10px;
 }
 .line{
@@ -239,7 +239,7 @@ a {
 	
 	margin-top: 10px;
 	margin-left: 400px;
-	background-color: #3c6;
+	background-color: #BB3333;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-top: -5px;
@@ -251,13 +251,13 @@ a {
 	cursor: pointer;
 	font-weight: 500;
 	font-size: 18px;
-	border: 5px solid #3c6;
+	border: 5px solid #BB3333;
 	text-align: center;
 }
 #butt-on1{
 	margin-top: 10px;
 	margin-left: 10px;
-	background-color: #3c6;
+	background-color: #BB3333;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-top: -5px;
@@ -269,7 +269,7 @@ a {
 	cursor: pointer;
 	font-weight: 500;
 	font-size: 18px;
-	border: 5px solid #3c6;
+	border: 5px solid #BB3333;
 	text-align: center;
 }
 /*#butt-on a{
