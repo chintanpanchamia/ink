@@ -1,8 +1,8 @@
 <ul id="gn-menu" class="gn-menu-main">
                 <li class="gn-trigger">
                     <a class="gn-icon gn-icon-menu"><span></span></a>
-                    <li><span class="sitetitle"><a href="index.html">word<span style="color:#555;">smith.</span></a></span></li>
-                    <li><span id="crw">craft your <span style="color:#3c6"><b>words</b><span></li>
+                    <li><span class="sitetitle logo"><a href="homepage.php"><span style="color:#555;"></span></a></span></li>
+                    <li><span id="crw"><span style="color:#BB3333"><b>Writers</b></span> | Authors</li>
                     <nav class="gn-menu-wrapper">
                         <div class="gn-scroller">
                             <ul class="gn-menu">
@@ -33,7 +33,7 @@
                         </div><!-- /gn-scroller -->
                     </nav>
                     <?php
-                       $dbc=mysqli_connect('localhost','root','','test')
+                       $dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
                         $q="select * from creator where creatorid={$_SESSION['login_user']}";
                         $res=mysqli_query($dbc,$q);

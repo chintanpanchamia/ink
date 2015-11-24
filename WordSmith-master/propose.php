@@ -1,7 +1,7 @@
 <?php
 session_start();
-$dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831866_test')
-      or die("error connecting to the database");//$hire=$_GET['hire'];
+$dbc=mysqli_connect('127.0.0.1','root','','test')
+      or die("error connecting to the database");
 if($_SESSION['login_user']==$_GET['hire'])
 	header("location:profile.php?view={$_GET['hire']}");
 $query="select * from creator where creatorid={$_GET['hire']}";

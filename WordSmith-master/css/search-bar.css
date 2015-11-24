@@ -74,23 +74,23 @@ a:active {
   padding: 20px 65px 20px 20px;
   font-family: inherit;
   font-size: 20px;
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-search-input::-webkit-input-placeholder {
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-search-input:-moz-placeholder {
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-search-input::-moz-placeholder {
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-search-input:-ms-input-placeholder {
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-icon-search,
@@ -121,7 +121,7 @@ a:active {
 }
 
 .sb-icon-search {
-  color: #3c6;
+  color: #BB333;
   background: #333;
   z-index: 90;
   font-size: 22px;
@@ -148,7 +148,7 @@ a:active {
 .sb-search.sb-search-open .sb-icon-search,
 .no-js .sb-search .sb-icon-search {
   
-  background: #3c6;
+  background: #BB333;
   color: #333;
   z-index: 11;
 }
@@ -198,23 +198,23 @@ a:active {
   padding: 20px 65px 20px 20px;
   font-family: inherit;
   font-size: 20px;
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-search-input::-webkit-input-placeholder {
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-search-input:-moz-placeholder {
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-search-input::-moz-placeholder {
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-search-input:-ms-input-placeholder {
-  color: #3c6;
+  color: #BB333;
 }
 
 .sb-icon-search,
@@ -245,7 +245,7 @@ a:active {
 }
 
 .sb-icon-search {
-  color: #3c6;
+  color: #BB333;
   background: #333;
   z-index: 90;
   font-size: 22px;
@@ -272,7 +272,7 @@ a:active {
 .sb-search.sb-search-open .sb-icon-search,
 .no-js .sb-search .sb-icon-search {
   
-  background: #3c6;
+  background: #BB333;
   color: #333;
   z-index: 11;
 }

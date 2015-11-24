@@ -53,7 +53,7 @@
 session_start();
 
 $current=$_SESSION['login_user'];
-$dbc=mysqli_connect('mysql13.000webhost.com','a3831866_root','password69','a3831866_test')
+$dbc=mysqli_connect('127.0.0.1','root','','test')
       or die("error connecting to the database");
     $query="select * from hiredeal where creator1='{$_SESSION['login_user']}' and status=''";
     $result=mysqli_query($dbc,$query);
